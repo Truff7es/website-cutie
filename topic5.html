@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PORTFOLIO #5</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial Narrow, sans-serif;
+        background:
+            linear-gradient(rgba(255,192,203,0.6), rgba(255,192,203,0.6)),
+            url("background cutie.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 20px;
+        background: #f4c6d6;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .topbar-left {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .header-logo {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        overflow: hidden;
+        background: transparent;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .top-title {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .search-section {
+        width: 100%;
+        padding: 10px 25px;
+        background: #f4c6d6;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .search-box {
+        width: 280px;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #ff82b1;
+        font-size: 16px;
+    }
+
+    .nav-menu {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        font-size: 18px;
+    }
+
+    .nav-menu a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 6px;
+        transition: 0.3s;
+    }
+
+    .nav-menu a.active,
+    .nav-menu a:hover {
+        background: #ff6fa5;
+        color: white;
+    }
+
+    .content {
+        max-width: 950px;
+        margin: 40px auto;
+        background: rgba(255, 245, 248, 0.9);
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+        line-height: 1.8;
+        font-size: 18px;
+    }
+
+    h1, h2 {
+        color: #c2185b;
+        margin-top: 0;
+    }
+
+    .section {
+        margin-bottom: 30px;
+    }
+
+    .table-wrapper {
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 16px;
+    }
+
+    thead {
+        background: #f4c6d6;
+    }
+
+    th, td {
+        border: 1px solid #d8a9bd;
+        padding: 8px 10px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    th {
+        font-weight: bold;
+    }
+
+    tbody tr:nth-child(even) {
+        background: #ffe5f1;
+    }
+
+    tbody tr:nth-child(odd) {
+        background: #fff7fb;
+    }
+
+    .back-btn {
+        display: block;
+        width: fit-content;
+        margin: 20px auto 40px;
+        background: #ff6fa5;
+        color: white;
+        padding: 12px 28px;
+        font-size: 18px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .back-btn:hover {
+        background: #ff4e8b;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+    <div class="topbar-left">
+        <div class="header-logo">
+            <img src="catimage.jpg" alt="">
+        </div>
+        <div class="top-title">Elisha's Sandbox</div>
+    </div>
+</div>
+
+<div class="search-section">
+    <input class="search-box" type="text" placeholder=" Search.....">
+
+    <div class="nav-menu">
+        <a href="home.html">HOME</a>
+        <a href="menu.html" class="active">MENU</a>
+        <a href="about me.html">ABOUT ME</a>
+    </div>
+</div>
+
+
+<div class="content">
+    <h1>Portfolio #5: Comparative Study On Different Types Of Motherboards.</h1>
+
+    <div class="section">
+        <p>
+            Motherboards are considered the backbone of every computer because they connect and allow
+            communication between all major components such as the processor, memory, storage devices,
+            and peripheral ports. Through this comparative study, it becomes clear that each motherboard
+            form factor has unique characteristics designed for specific purposes. The older AT and LPX
+            motherboards were once standard but are now outdated due to their large size, limited slots,
+            and lack of modern features like USB and SATA ports. In contrast, newer models such as ATX
+            and Micro-ATX provide better layouts, easier installation, and support for more advanced
+            chipsets, improving both performance and efficiency.
+        </p>
+        <p>
+            Technology has advanced toward smaller yet more powerful designs. For instance, Mini ITX and
+            Pico BTX motherboards are compact but can still handle high-speed processors and memory,
+            making them ideal for portable or space-saving systems. Meanwhile, Extended-ATX motherboards
+            cater to professional use, offering multiple PCI and memory slots for gaming, servers, or
+            heavy workloads. These improvements demonstrate how manufacturers continue to balance size,
+            functionality, and performance to meet the growing demands of users.
+        </p>
+        <p>
+            Overall, the evolution of motherboard designs reflects the progress of computer technology.
+            Modern motherboards now provide faster data transfer, improved power efficiency, and built-in
+            features like Wi-Fi and Bluetooth. Understanding these differences helps users choose the
+            right motherboard for their needs—whether for gaming, office work, or compact computing—
+            proving that motherboard development plays a vital role in shaping the future of computer
+            performance and design.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Comparison of Motherboard Form Factors</h2>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Form Factor</th>
+                        <th>Build</th>
+                        <th>CPU Slots</th>
+                        <th>Memory Slots</th>
+                        <th>Chipsets</th>
+                        <th>BIOS</th>
+                        <th>PCI Slots</th>
+                        <th>SATA</th>
+                        <th>Built-in Features</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AT Motherboard</td>
+                        <td>Large and bulky; older design</td>
+                        <td>1</td>
+                        <td>2–4</td>
+                        <td>Basic chipset (Intel 430 series)</td>
+                        <td>Legacy BIOS</td>
+                        <td>2–3</td>
+                        <td>None (used IDE)</td>
+                        <td>Limited ports, no USB support</td>
+                    </tr>
+                    <tr>
+                        <td>ATX Motherboard</td>
+                        <td>Standard size; improved layout</td>
+                        <td>1</td>
+                        <td>2–4</td>
+                        <td>Advanced chipsets (Intel, AMD)</td>
+                        <td>UEFI / Legacy BIOS</td>
+                        <td>3–7</td>
+                        <td>4–6</td>
+                        <td>USB, Ethernet, Audio, Expansion slots</td>
+                    </tr>
+                    <tr>
+                        <td>BTX Motherboard</td>
+                        <td>Designed for better airflow and cooling</td>
+                        <td>1</td>
+                        <td>2–4</td>
+                        <td>Intel 915 / 925 series</td>
+                        <td>UEFI BIOS</td>
+                        <td>2–4</td>
+                        <td>2–4</td>
+                        <td>Integrated audio, LAN, USB</td>
+                    </tr>
+                    <tr>
+                        <td>Extended-ATX Motherboard</td>
+                        <td>Larger than ATX; for workstations/servers</td>
+                        <td>1–2</td>
+                        <td>4–8</td>
+                        <td>High-end chipsets (X299, TRX40)</td>
+                        <td>UEFI BIOS</td>
+                        <td>4–8</td>
+                        <td>6–10</td>
+                        <td>Multi-GPU support, extra RAM slots</td>
+                    </tr>
+                    <tr>
+                        <td>LPX Motherboard</td>
+                        <td>Slim, used in low-profile desktops</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>Simple integrated chipset</td>
+                        <td>Legacy BIOS</td>
+                        <td>1 riser card slot</td>
+                        <td>None</td>
+                        <td>Integrated video/audio</td>
+                    </tr>
+                    <tr>
+                        <td>Micro-ATX Motherboard</td>
+                        <td>Compact version of ATX</td>
+                        <td>1</td>
+                        <td>2–4</td>
+                        <td>Mid-range chipsets (B550, H610)</td>
+                        <td>UEFI BIOS</td>
+                        <td>1–4</td>
+                        <td>4–6</td>
+                        <td>Fewer expansion slots, onboard audio/video</td>
+                    </tr>
+                    <tr>
+                        <td>Mini ITX Motherboard</td>
+                        <td>Small form factor for compact PCs</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>Efficient chipsets (B660, A520)</td>
+                        <td>UEFI BIOS</td>
+                        <td>1</td>
+                        <td>2–4</td>
+                        <td>Built-in Wi-Fi, LAN, Bluetooth</td>
+                    </tr>
+                    <tr>
+                        <td>Mini-ATX Motherboard</td>
+                        <td>Smaller than standard ATX</td>
+                        <td>1</td>
+                        <td>2–3</td>
+                        <td>Mid-level chipsets</td>
+                        <td>UEFI BIOS</td>
+                        <td>2–3</td>
+                        <td>4</td>
+                        <td>Integrated sound and LAN</td>
+                    </tr>
+                    <tr>
+                        <td>Pico BTX Motherboard</td>
+                        <td>Smallest BTX version; compact PCs</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>Integrated chipset</td>
+                        <td>UEFI BIOS</td>
+                        <td>1</td>
+                        <td>1–2</td>
+                        <td>Built-in graphics, LAN</td>
+                    </tr>
+                    <tr>
+                        <td>Standard-ATX Motherboard</td>
+                        <td>Common desktop standard</td>
+                        <td>1</td>
+                        <td>2–4</td>
+                        <td>Mainstream chipsets</td>
+                        <td>UEFI BIOS</td>
+                        <td>3–7</td>
+                        <td>4–6</td>
+                        <td>USB, Audio, LAN, Wi-Fi (optional)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<a href="menu.html" class="back-btn">← Back to Menu</a>
+
+</body>
+</html>

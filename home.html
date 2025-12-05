@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elisha's Sandbox – Home</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial Narrow, sans-serif;
+        background:
+            linear-gradient(rgba(255,192,203,0.6), rgba(255,192,203,0.6)),
+            url("background cutie.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+
+
+    .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 20px;
+        background: #f4c6d6;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .topbar-left {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .header-logo {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        overflow: hidden;
+        background: transparent;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .top-title {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+
+    .search-section {
+        width: 100%;
+        padding: 10px 25px;
+        background: #f4c6d6;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .search-box {
+        width: 280px;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #ff82b1;
+        font-size: 16px;
+    }
+
+    .nav-menu {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        font-size: 18px;
+    }
+
+    .nav-menu a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 6px;
+        transition: 0.3s;
+    }
+
+    .nav-menu a.active,
+    .nav-menu a:hover {
+        background: #ff6fa5;
+        color: white;
+    }
+
+    .content-box {
+        width: 85%;
+        max-width: 1100px;
+        margin: 35px auto;
+        padding: 40px;
+        background: rgba(255, 245, 248, 0.85); 
+        border-radius: 25px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        backdrop-filter: blur(4px);
+    }
+
+    .main {
+        display: flex;
+        padding: 20px;
+        gap: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left {
+        flex: 1 1 350px;
+        min-width: 300px;
+    }
+
+    .big-logo {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+        background: transparent;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .big-logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .left-title {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .main-text {
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 1.8;
+        max-width: 700px;
+    }
+
+    .right-box {
+        flex: 1 1 500px;
+        max-width: 550px;
+        height: 380px;
+        border-radius: 20px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+        background: none;
+    }
+
+    .right-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .bottom-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding: 20px 30px 30px;
+    }
+
+    .back-home {
+        background: #ff6fa5;
+        color: white;
+        border: none;
+        padding: 12px 30px;
+        font-size: 18px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .back-home:hover {
+        background: #ff4e8b;
+    }
+
+    .page-indicator {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: #f4c6d6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 16px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+    <div class="topbar-left">
+        <div class="header-logo">
+            <img src="catimage.jpg">
+        </div>
+        <div class="top-title">Elisha's Sandbox</div>
+    </div>
+</div>
+
+<div class="search-section">
+    <input class="search-box" type="text" placeholder=" Search.....">
+
+    <div class="nav-menu">
+        <a href="index.html" class="active">HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="about me.html">ABOUT ME</a>
+    </div>
+</div>
+
+
+<div class="content-box">
+
+    <div class="main">
+        <div class="left">
+            <div class="left-title">
+
+                <div class="big-logo">
+                    <img src="catimage.jpg">
+                </div>
+
+                <h1>Elisha's Sandbox</h1>
+            </div>
+
+            <div class="main-text">
+                Hello I am Elisha and this is my Sandbox! A place where I upload all my learnings
+                from the CIS1102 (Introduction to Computing) Course into one website.
+            </div>
+        </div>
+
+        <div class="right-box">
+            <img src="pinkdesktoo.jpg" alt="Main Image">
+        </div>
+    </div>
+
+</div> 
+
+<div class="bottom-bar">
+    <button class="back-home" onclick="location.href='menu.html'">Proceed to Menu »</button>
+    <div class="page-indicator">1</div>
+</div>
+
+</body>
+</html>
